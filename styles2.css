@@ -1,0 +1,513 @@
+/* styles2.css */
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container, .container-fluid {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.btn, .cta-btn, .hero-btn, .cta-btn, .features-btn-outer a, .templates-btn-outer a, .tips-btn-outer a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #FF5722;
+    color: #fff;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.btn:hover, .cta-btn:hover, .hero-btn:hover, .cta-btn:hover, .features-btn-outer a:hover, .templates-btn-outer a:hover, .tips-btn-outer a:hover {
+    background-color: #e64a19;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-sec {
+    padding: 100px 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.hero-heading {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-heading .highlight {
+    color: #FF5722;
+}
+
+.hero-subpara {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #FF5722;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #e64a19;
+}
+
+/* Statistics Section */
+.statistics-sec {
+    padding: 60px 0;
+    background-color: #FF5722;
+    color: #fff;
+}
+
+.statistics-heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.statistics-sec .cta-btn {
+    background-color: #fff;
+    color: #FF5722;
+}
+
+.statistics-sec .cta-btn:hover {
+    background-color: #f1f1f1;
+    color: #FF5722;
+}
+
+/* Trusted Brands Section */
+.trusted-brands-sec {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.trusted-line-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.trusted-line-area .line {
+    width: 50px;
+    height: 2px;
+    background-color: #FF5722;
+    margin: 0 15px;
+}
+
+.trusted-brands-heading {
+    font-size: 24px;
+    color: #555;
+}
+
+.leading-brands-pic img {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features-sec {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.features-heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.features-slider {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-item img {
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Lesson Templates Section */
+.lesson-templates-sec {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.templates-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.templates-subheading {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lesson-card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.lesson-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-pic img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-subtitle {
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+}
+
+/* How-to Section */
+.howto-sec {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.howto-heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.howto-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.howto-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.howto-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.step-number {
+    background-color: #FF5722;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex: 1;
+}
+
+.step-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FF5722;
+}
+
+.step-content p {
+    font-size: 16px;
+    color: #555;
+}
+
+.step-pic img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Pro Tips Section */
+.pro-tips-sec {
+    padding: 60px 0;
+    background-color: #FF5722;
+    color: #fff;
+    text-align: center;
+}
+
+.tips-heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.outer-tips {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.leftTips {
+    flex: 1;
+}
+
+.tips-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.circlePoints {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+.leftTips p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.rightTipsPic img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.tips-btn-outer a {
+    background-color: #fff;
+    color: #FF5722;
+}
+
+.tips-btn-outer a:hover {
+    background-color: #f1f1f1;
+    color: #FF5722;
+}
+
+/* Featured In Section */
+.featured-in-sec {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-in-sec img {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* FAQ Section */
+.faq-sec {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.faq-heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #FF5722;
+    color: #fff;
+}
+
+.accordion-header .question {
+    font-size: 18px;
+}
+
+.accordion-toggle img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .accordion-toggle .accordion-close {
+    display: block;
+}
+
+.accordion-item.active .accordion-toggle .accordion-open {
+    display: none;
+}
+
+.accordion-item .accordion-body {
+    padding: 0 20px 20px 20px;
+    display: none;
+    color: #555;
+    font-size: 16px;
+}
+
+.accordion-item.active .accordion-body {
+    display: block;
+}
+
+.accordion-item.active .accordion-header {
+    background-color: #e64a19;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .howto-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .howto-item:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .outer-tips {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 32px;
+    }
+
+    .features-slider {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-slider .feature-item {
+        width: 80%;
+    }
+
+    .lesson-templates-sec .cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lesson-card {
+        width: 90%;
+    }
+
+    .accordion-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .accordion-toggle {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-heading {
+        font-size: 24px;
+    }
+
+    .step-pic img {
+        max-width: 100%;
+    }
+
+    .step-number {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .features-slider .feature-item {
+        width: 100%;
+    }
+}
