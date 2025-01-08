@@ -12,7 +12,7 @@ body, h1, h2, h3, p, ul, li, form, label, input, textarea, button {
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #ecf0f1; /* Soft Gray */
     color: #333;
     line-height: 1.6;
 }
@@ -26,10 +26,10 @@ body {
 
 /* Header styling */
 header {
-    background: rgba(80, 179, 162, 0.8); /* Slight transparency for overlay effect */
+    background: rgba(52, 73, 94, 0.9); /* Deep Navy with slight transparency */
     color: #fff;
     padding: 20px 0;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #e67e22 3px solid; /* Vibrant Orange */
     position: fixed;
     width: 100%;
     top: 0;
@@ -56,13 +56,13 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #e8491d;
+    color: #e67e22; /* Vibrant Orange on hover */
 }
 
 /* Button styling */
 .btn {
     display: inline-block;
-    background: #e8491d;
+    background: #e67e22; /* Vibrant Orange */
     color: #fff;
     padding: 10px 20px;
     margin-top: 10px;
@@ -72,7 +72,7 @@ header nav ul li a:hover {
 }
 
 .btn:hover {
-    background: #cf3e14;
+    background: #d35400; /* Darker Orange on hover */
 }
 
 /* Main content styling */
@@ -98,7 +98,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(80, 179, 162, 0.6); /* Overlay color */
+    background-color: rgba(52, 73, 94, 0.6); /* Deep Navy overlay */
     z-index: 0;
 }
 
@@ -126,7 +126,7 @@ main {
 }
 
 #about-preview h2, #testimonials h2, #about-us h1, #workshops h1, #media-gallery h1, #blog-posts h1, #contact-us h1, #newsletter-signup h2 {
-    color: #50b3a2;
+    color: #34495e; /* Deep Navy */
     margin-bottom: 20px;
     text-align: center;
 }
@@ -178,7 +178,7 @@ main {
 
 #newsletter-signup button {
     padding: 10px 20px;
-    background: #50b3a2;
+    background: #e67e22; /* Vibrant Orange */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -187,7 +187,7 @@ main {
 }
 
 #newsletter-signup button:hover {
-    background: #409189;
+    background: #d35400; /* Darker Orange on hover */
 }
 
 /* Workshops styling */
@@ -196,7 +196,7 @@ main {
 }
 
 .workshop-details h2 {
-    color: #e8491d;
+    color: #d35400; /* Darker Orange */
     margin-bottom: 10px;
 }
 
@@ -273,7 +273,7 @@ main {
 }
 
 .news-article h3 {
-    color: #e8491d;
+    color: #d35400; /* Darker Orange */
     margin: 15px 0 10px 0;
 }
 
@@ -283,11 +283,11 @@ main {
 }
 
 .news-article .btn {
-    background: #50b3a2;
+    background: #e67e22; /* Vibrant Orange */
 }
 
 .news-article .btn:hover {
-    background: #409189;
+    background: #d35400; /* Darker Orange on hover */
 }
 
 /* Blog posts styling */
@@ -296,7 +296,7 @@ main {
 }
 
 .post h2 {
-    color: #50b3a2;
+    color: #34495e; /* Deep Navy */
     margin-bottom: 10px;
 }
 
@@ -305,11 +305,11 @@ main {
 }
 
 .post .btn {
-    background: #50b3a2;
+    background: #e67e22; /* Vibrant Orange */
 }
 
 .post .btn:hover {
-    background: #409189;
+    background: #d35400; /* Darker Orange on hover */
 }
 
 /* Contact form styling */
@@ -336,20 +336,20 @@ form input, form textarea {
 form button {
     width: 150px;
     align-self: center;
-    background: #50b3a2;
+    background: #e67e22; /* Vibrant Orange */
 }
 
 form button:hover {
-    background: #409189;
+    background: #d35400; /* Darker Orange on hover */
 }
 
 /* Footer styling */
 footer {
-    background-color: #50b3a2;
+    background-color: #34495e; /* Deep Navy */
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    border-top: #e8491d 3px solid;
+    border-top: #e67e22 3px solid; /* Vibrant Orange */
     margin-top: 40px;
     position: relative;
 }
@@ -375,7 +375,7 @@ footer .social-media a:hover {
     opacity: 0.8;
 }
 
-/* Responsive Adjustments */
+/* Responsive Design */
 @media (max-width: 768px) {
     header nav ul {
         flex-direction: column;
@@ -410,5 +410,10 @@ footer .social-media a:hover {
     footer .social-media a img {
         width: 20px;
         height: 20px;
+    }
+    
+    /* Center the Stay Updated Section */
+    #newsletter-signup {
+        text-align: center;
     }
 }
