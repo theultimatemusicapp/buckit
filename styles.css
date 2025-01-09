@@ -37,6 +37,22 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* BUCKIT Title on the Left */
+.logo-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
 header nav ul {
@@ -44,6 +60,7 @@ header nav ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-right: 20px;
 }
 
 header nav ul li {
@@ -95,7 +112,8 @@ main {
   padding: 80px 20px;
   background: url('buckithero.jpg') no-repeat center center/cover;
   color: #fff;
-  height: 100vh; /* Full viewport height */
+  /* Reduced the height from 100vh to 60vh */
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
